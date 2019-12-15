@@ -1,7 +1,7 @@
 pipeline {
   agent {
     node { 
-      label: 'ubuntu_node1'
+      label 'ubuntu_node1'
     }
   }
   tools {
