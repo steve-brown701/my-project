@@ -11,7 +11,7 @@ pipeline {
     stage ('Checkout') {
       steps {
         echo "Cloning git repo."
-        git https://github.com/steve-brown701/my-project.git
+        git 'https://github.com/steve-brown701/my-project.git'
       }
     }
     stage ('Build') {
